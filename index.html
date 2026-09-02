@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amine — Mon Journal Multimédia</title>
+<style>
+  :root {
+    --bg-dark: #0d1117;
+    --bg-card: #161b22;
+    --accent: #58a6ff;
+    --accent-2: #f778ba;
+    --text: #c9d1d9;
+    --text-dim: #8b949e;
+    --border: #30363d;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg-dark);
+    color: var(--text);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* --- HEADER / HERO --- */
+  header {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: radial-gradient(circle at 50% 30%, rgba(88,166,255,0.15), transparent 60%);
+    overflow: hidden;
+  }
+
+  header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(var(--border) 1px, transparent 1px),
+      linear-gradient(90deg, var(--border) 1px, transparent 1px);
+    background-size: 40px 40px;
+    opacity: 0.15;
+    animation: shift 20s linear infinite;
+  }
+
+  @keyframes shift {
+    from { background-position: 0 0; }
+    to { background-position: 400px 400px; }
+  }
+
+  header h1 {
+    font-size: 3rem;
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    z-index: 1;
+  }
+
+  header p {
+    z-index: 1;
+    color: var(--text-dim);
+    margin-top: 10px;
+    font-size: 1.1rem;
+  }
+
+  .typing {
+    z-index: 1;
+    margin-top: 20px;
+    font-family: 'Consolas', monospace;
+    font-size: 1rem;
+    color: var(--accent);
+    border-right: 2px solid var(--accent);
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 3s steps(40, end) forwards, blink 0.7s step-end infinite;
+  }
+
+  @keyframes typing { from { width: 0; } to { width: 32ch; } }
+  @keyframes blink { 50% { border-color: transparent; } }
+
+  /* --- SECTIONS --- */
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 20px;
+  }
+
+  section {
+    margin-bottom: 60px;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 0.8s forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+  }
+
+  @keyframes fadeUp {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    color: var(--accent);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  h2::before {
+    content: "▹";
+    color: var(--accent-2);
+  }
+
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s, border-color 0.3s;
+  }
+
+  .card:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent);
+  }
+
+  /* --- GRID SKILLS --- */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px;
+  }
+
+  .skill {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .skill:hover {
+    background: linear-gradient(135deg, rgba(88,166,255,0.1), rgba(247,120,186,0.1));
+    border-color: var(--accent);
+  }
+
+  .skill .icon { font-size: 1.8rem; margin-bottom: 8px; }
+  .skill .label { font-size: 0.9rem; color: var(--text-dim); }
+
+  /* --- TIMELINE --- */
+  .timeline {
+    position: relative;
+    padding-left: 30px;
+    border-left: 2px solid var(--border);
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -37px;
+    top: 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 0 4px rgba(88,166,255,0.2);
+  }
+
+  .timeline-item h3 { color: var(--text); font-size: 1.1rem; }
+  .timeline-item span { color: var(--text-dim); font-size: 0.85rem; }
+
+  /* --- CONTACT --- */
+  .contact-links {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .contact-links a {
+    text-decoration: none;
+    color: var(--bg-dark);
+    background: var(--accent);
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+
+  .contact-links a:hover {
+    background: var(--accent-2);
+    transform: scale(1.05);
+  }
+
+  footer {
+    text-align: center;
+    padding: 30px;
+    color: var(--text-dim);
+    border-top: 1px solid var(--border);
+    font-size: 0.85rem;
+  }
+
+  /* Barre de progression scroll */
+  #progress-bar {
+    position: fixed;
+    top: 0; left: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    width: 0%;
+    z-index: 999;
+  }
+</style>
+</head>
+<body>
+
+<div id="progress-bar"></div>
+
+<header>
+  <h1>Amine 👋</h1>
+  <p>Créateur de contenu multimédia — Étudiant au Collège Montmorency</p>
+  <div class="typing">Bienvenue sur mon journal multimédia...</div>
+</header>
+
+<main>
+
+  <section>
+    <h2>À propos de moi</h2>
+    <div class="card">
+      <p>Je m'appelle <strong>Amine</strong>, je suis étudiant au <strong>Collège Montmorency</strong>.
+      Ce dépôt est mon journal multimédia : un espace où je documente mes projets, mes créations
+      photo/vidéo et mon parcours en création de contenu. Passionné par l'image et le montage,
+      j'aime raconter des histoires visuelles et apprendre en construisant des projets concrets
+      comme celui-ci.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Compétences</h2>
+    <div class="grid">
+      <div class="skill"><div class="icon">📷</div><div class="label">Photographie</div></div>
+      <div class="skill"><div class="icon">🎬</div><div class="label">Montage vidéo</div></div>
+      <div class="skill"><div class="icon">📱</div><div class="label">Réseaux sociaux</div></div>
+      <div class="skill"><div class="icon">💡</div><div class="label">Créativité</div></div>
+      <div class="skill"><div class="icon">🖥️</div><div class="label">HTML / CSS</div></div>
+      <div class="skill"><div class="icon">🎨</div><div class="label">Design visuel</div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Parcours</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Début en création de contenu</h3>
+        <span>Freelance — photo & vidéo pour des marques locales</span>
+      </div>
+      <div class="timeline-item">
+        <h3>Collaborations professionnelles</h3>
+        <span>Projets pour des entreprises locales à Montréal</span>
+      </div>
+      <div class="timeline-item">
+        <h3>Aujourd'hui</h3>
+        <span>Étudiant au Collège Montmorency — développement de ce journal multimédia</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Ce projet</h2>
+    <div class="card">
+      <p>Cette page est générée avec du HTML/CSS/JS pur, sans dépendances externes.
+      Elle inclut des animations au défilement, une barre de progression de lecture,
+      un effet de machine à écrire, et une mise en page responsive. L'objectif : montrer
+      qu'on peut créer quelque chose de soigné avec des outils simples.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Me contacter</h2>
+    <div class="contact-links">
+      <a href="#">GitHub</a>
+      <a href="#">Instagram</a>
+      <a href="#">Email</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  © 2026 Amine — Journal multimédia • Collège Montmorency
+</footer>
+
+<script>
+  // Barre de progression de lecture
+  window.addEventListener('scroll', () => {
+    const h = document.documentElement;
+    const scrolled = (h.scrollTop) / (h.scrollHeight - h.clientHeight) * 100;
+    document.getElementById('progress-bar').style.width = scrolled + '%';
+  });
+</script>
+
+</body>
+</html>

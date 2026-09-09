@@ -7,7 +7,7 @@ Semaine 1 : Au premier cours, je narriver pas a cree un journal de bord, et l`in
 
 semaine 2 : jai reussi a cree un ompte github pour mon journal de bord, et egalement avoir acces a kritta ce qui ma permis de me familiariser avec linterface, jai pu realiser quelque dessins, avec la particiption dune collegue, on a competitionner pour voir qui dessine le mieux malgre notre niveau catastrophique en dessin comparer a dautre eleve de la classe .
 
-Semaine 3: aujourd'hui j'ai appris à utiliser la fonction découpage, filtre, la superposition des calques, l'utilisation de la fonction Texte, agrandir ou rétrécir une image et plein d'autres fonctions super utiles. ce qui m’a permis au final de réaliser une image d'annonce d'un film que j'ai nommé ( the dark everest)
+Semaine 3: aujourd'hui j'ai appris à utiliser la fonction découpage, filtre, la superposition des calques, l'utilisation de la fonction Texte, agrandir ou rétrécir une image (libre de droit), export png et plein d'autres fonctions super utiles. ce qui m’a permis au final de réaliser une image d'annonce d'un film que j'ai nommé ( the dark everest). Jai rencontrer quelque difficulté comme : comment changer la police dècriture, comment detourer manuellement une image et 
 <img width="3508" height="2480" alt="DARK EVEREST" src="https://github.com/user-attachments/assets/9cd7f607-bf94-4d97-87f6-f3d18aac25fa" />
 <img width="2542" height="1454" alt="Capture d’écran 2026-09-09 135718" src="https://github.com/user-attachments/assets/f5cbeed4-8d7b-40a2-aece-a6141f9aff73" />
 <img width="2572" height="1467" alt="Capture d’écran 2026-09-09 140940" src="https://github.com/user-attachments/assets/1f1b90df-a786-4923-80de-3228162c7f48" />

@@ -12,3 +12,7 @@ Semaine 3: aujourd'hui j'ai appris à utiliser la fonction découpage, filtre, l
 <img width="2542" height="1454" alt="Capture d’écran 2026-09-09 135718" src="https://github.com/user-attachments/assets/f5cbeed4-8d7b-40a2-aece-a6141f9aff73" />
 <img width="2572" height="1467" alt="Capture d’écran 2026-09-09 140940" src="https://github.com/user-attachments/assets/1f1b90df-a786-4923-80de-3228162c7f48" />
 <img width="2566" height="1460" alt="Capture d’écran 2026-09-09 140913" src="https://github.com/user-attachments/assets/5e331701-6156-4e08-ba4b-a6ddd5d3f0a6" />
+
+## Reference 
+Documentaire kayzen : < https://www.breakflip.com/imgcdn/sB6ErZuy6go1SD0fSNOj6nsM9oMN59Ze5qOP9QjOMjI/rs:fill:2400:1350:1/g:sm/aHR0cHM6Ly93d3cuYnJlYWtmbGlwLmNvbS91cGxvYWRzLzY2ZTdmMTM0Mjk0M2ItdmlnbmV0dGUteW91dHViZS1pbm94dGFnLWthaXplbi1yZWNvcmQtZGUtdnVlcy0yNGguanBn
+

@@ -1,1 +1,5 @@
 Semaine 3: aujourd'hui j'ai appris à utiliser la fonction découpage, filtre, la superposition des calques, l'utilisation de la fonction Texte, agrandir ou rétrécir une image (libre de droit), export png et plein d'autres fonctions super utiles. ce qui m’a permis au final de réaliser une image d'annonce d'un film que j'ai nommé ( the dark everest). Jai rencontrer quelque difficulté comme : comment changer la police dècriture, comment detourer manuellement une image et
+<img width="2566" height="1460" alt="648888606-5e331701-6156-4e08-ba4b-a6ddd5d3f0a6" src="https://github.com/user-attachments/assets/757fd21f-00aa-4327-8c69-3cd2272cd287" />
+<img width="2572" height="1467" alt="648888670-1f1b90df-a786-4923-80de-3228162c7f48" src="https://github.com/user-attachments/assets/57983be9-4228-4e52-b44c-19b479471bd6" />
+<img width="2542" height="1454" alt="648884881-f5cbeed4-8d7b-40a2-aece-a6141f9aff73" src="https://github.com/user-attachments/assets/151559b5-4f5a-4abe-bc50-e074b43fa31e" />
+<img width="3508" height="2480" alt="648884780-9cd7f607-bf94-4d97-87f6-f3d18aac25fa" src="https://github.com/user-attachments/assets/614bbe4b-eb9d-4a22-8ccd-039253f01b66" />

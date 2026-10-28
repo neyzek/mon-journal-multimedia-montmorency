@@ -1,4 +1,5 @@
-# titre 
+## Semaine 7 et 8 – Création de ma première animation
+
 Durant ces deux semaines, j'ai appris à animer des images pour créer une petite vidéo. Pour ce projet, j'ai décidé de réaliser une animation d'un match de football, avec une action qui se termine par un but.
 
 J'ai appris à utiliser les calques pour séparer les différents éléments, à déplacer les personnages et le ballon, à changer leur position au fil du temps et à créer des mouvements grâce aux images clés. J'ai également appris à superposer les images pour faire passer un élément devant ou derrière un autre, et à synchroniser les mouvements pour rendre l'animation plus naturelle.

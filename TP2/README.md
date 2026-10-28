@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/1f3c3844-b864-42dc-920c-01d7559b4a48
+
 ## Semaine 7 et 8 – Création de ma première animation
 
 Durant ces deux semaines, j'ai appris à animer des images pour créer une petite vidéo. Pour ce projet, j'ai décidé de réaliser une animation d'un match de football, avec une action qui se termine par un but.
@@ -9,11 +13,15 @@ J'ai rencontré quelques difficultés, surtout pour rendre les mouvements des jo
 Au final, j'ai réussi à réaliser mon animation d'un match de football avec une frappe, un gardien qui plonge et un but à la dernière minute. Ce projet m'a permis de mieux comprendre le fonctionnement de l'animation et l'importance des petits détails dans les mouvements.
 
 Projet réalisé : Animation d'un match de football – World Cup Final.
-<img width="6000" height="3375" alt="Vignette TP2 Video" src="https://github.com/user-attachments/assets/21ad629b-9002-4bda-8cc7-89ddd07a950c" />
 
+<a href="https://github.com/user-attachments/assets/1f3c3844-b864-42dc-920c-01d7559b4a48" target="_blank">
+  <img
+    width="6000"
+    height="3375"
+    alt="Vignette TP2 Video"
+    src="https://github.com/user-attachments/assets/21ad629b-9002-4bda-8cc7-89ddd07a950c"
+  />
+</a>
 
-
-
-Uploading TP2 -projet multimedia - amine falah .mp4…
 
 

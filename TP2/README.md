@@ -13,7 +13,4 @@ Projet réalisé : Animation d'un match de football – World Cup Final.
 
 
 
-https://github.com/user-attachments/assets/a2b370f3-72a0-4aa4-817a-0e2a91d87ba8
-
-
 

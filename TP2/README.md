@@ -11,3 +11,9 @@ Au final, j'ai réussi à réaliser mon animation d'un match de football avec un
 Projet réalisé : Animation d'un match de football – World Cup Final.
 <img width="6000" height="3375" alt="Vignette TP2 Video" src="https://github.com/user-attachments/assets/21ad629b-9002-4bda-8cc7-89ddd07a950c" />
 
+
+
+https://github.com/user-attachments/assets/a2b370f3-72a0-4aa4-817a-0e2a91d87ba8
+
+
+

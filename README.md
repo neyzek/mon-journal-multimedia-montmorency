@@ -16,7 +16,7 @@ Semaine 3: aujourd'hui j'ai appris à utiliser la fonction découpage, filtre, l
 ## Reference 
 Documentaire kayzen : < https://www.breakflip.com/imgcdn/sB6ErZuy6go1SD0fSNOj6nsM9oMN59Ze5qOP9QjOMjI/rs:fill:2400:1350:1/g:sm/aHR0cHM6Ly93d3cuYnJlYWtmbGlwLmNvbS91cGxvYWRzLzY2ZTdmMTM0Mjk0M2ItdmlnbmV0dGUteW91dHViZS1pbm94dGFnLWthaXplbi1yZWNvcmQtZGUtdnVlcy0yNGguanBn
 
-Semaine 7 et 8 – Création de ma première animation
+## Semaine 7 et 8 – Création de ma première animation
 
 Durant ces deux semaines, j'ai appris à animer des images pour créer une petite vidéo. Pour ce projet, j'ai décidé de réaliser une animation d'un match de football, avec une action qui se termine par un but.
 

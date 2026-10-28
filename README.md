@@ -20,15 +20,7 @@ aujourd'hui j'ai appris à utiliser la fonction découpage, filtre, la superposi
 Documentaire kayzen : < https://www.breakflip.com/imgcdn/sB6ErZuy6go1SD0fSNOj6nsM9oMN59Ze5qOP9QjOMjI/rs:fill:2400:1350:1/g:sm/aHR0cHM6Ly93d3cuYnJlYWtmbGlwLmNvbS91cGxvYWRzLzY2ZTdmMTM0Mjk0M2ItdmlnbmV0dGUteW91dHViZS1pbm94dGFnLWthaXplbi1yZWNvcmQtZGUtdnVlcy0yNGguanBn
 
 ## Semaine 7 et 8 – Création de ma première animation
-
-<a href="https://drive.google.com/file/d/1soonq3mxhp3ONcXJgTlDStznDt4OCAlM/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-  <img
-    width="6000"
-    height="3375"
-    alt="Vignette TP2 Video"
-    src="https://github.com/user-attachments/assets/7b1cad75-4c9e-43fe-8bfe-3365751ed3f6"
-  />
-</a>
+<img width="6000" height="3375" alt="Vignette TP2 Video" src="https://github.com/user-attachments/assets/b9c4cc06-e26b-4fd1-be8a-0ad1fe11afc9" />
 
 
 Durant ces deux semaines, j'ai appris à animer des images pour créer une petite vidéo. Pour ce projet, j'ai décidé de réaliser une animation d'un match de football, avec une action qui se termine par un but.
@@ -39,4 +31,6 @@ J'ai rencontré quelques difficultés, surtout pour rendre les mouvements des jo
 
 Au final, j'ai réussi à réaliser mon animation d'un match de football avec une frappe, un gardien qui plonge et un but à la dernière minute. Ce projet m'a permis de mieux comprendre le fonctionnement de l'animation et l'importance des petits détails dans les mouvements.
 
-**Projet réalisé :** Animation d'un match de football – *World Cup Final*. https://drive.google.com/file/d/1soonq3mxhp3ONcXJgTlDStznDt4OCAlM/view?usp=sharing
+**Projet réalisé :** Animation d'un match de football – *World Cup Final*. 
+Uploading TP2 -projet multimedia - amine falah .mp4…
+

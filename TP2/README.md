@@ -1,7 +1,4 @@
 
-
-https://github.com/user-attachments/assets/1f3c3844-b864-42dc-920c-01d7559b4a48
-
 ## Semaine 7 et 8 – Création de ma première animation
 
 Durant ces deux semaines, j'ai appris à animer des images pour créer une petite vidéo. Pour ce projet, j'ai décidé de réaliser une animation d'un match de football, avec une action qui se termine par un but.

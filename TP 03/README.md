@@ -18,5 +18,9 @@ https://github.com/user-attachments/assets/d789ecd9-f8ee-4297-8b80-91cf07f64b87
 
 ## SONS DE CREDIT 
 - MUSique : SNK | phonks edit | memes idien
-- Effect sonore : Clash royale | spa 12 fortnite | faaa | among us | suiiii 
+- Effect sonore : Clash royale | spa 12 fortnite | faaa | among us | suiiii
+
+## Screen shoot
+<img width="3810" height="2039" alt="Capture d’écran 2026-11-18 133936" src="https://github.com/user-attachments/assets/6f7e38d0-3f32-4dfc-a56b-b8f8d3f08e20" />
+
   

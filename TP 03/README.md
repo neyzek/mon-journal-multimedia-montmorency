@@ -15,3 +15,8 @@ Projet réalisé : Finalisation de l'animation d'un match de football – World 
 
 https://github.com/user-attachments/assets/d789ecd9-f8ee-4297-8b80-91cf07f64b87
 
+
+## SONS DE CREDIT 
+- MUSique : SNK | phonks edit | memes idien
+- Effect sonore : Clash royale | spa 12 fortnite | faaa | among us | suiiii 
+  
